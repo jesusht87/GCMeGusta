@@ -33,7 +33,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/axios"],
+  modules: ['@nuxtjs/axios'],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
