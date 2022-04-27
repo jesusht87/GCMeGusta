@@ -73,7 +73,7 @@ export default {
     show: true,
     linkmessage:
       "whatsapp://send?text=A%20veces%2C%20lo%20que%20tenemos%20m%C3%A1s%20cerca%20es%20lo%20que%20m%C3%A1s%20desconocemos...%20%C2%BFte%20atreves%20a%20responder%20esta%20pregunta%20sobre%20m%C3%AD%3F%20Si%20aciertas%2C%20te%20invito%20a%20comer%20en%20Ingenio.%20Y%20si%20pierdes...%20te%20toca%20invitarme...%20%C2%BFaceptas%20el%20reto%3F%20%F0%9F%98%8D%20 - ",
-    baseurl: "http://localhost:3000",
+    baseurl: "https://gcmegustafront.herokuapp.com/",
     notfinished: true,
     responseid: "",
   }),

@@ -113,7 +113,7 @@ export default {
         success: true,
         show: false,
       });
-      window.location.href = "/right";
+      window.location.href = "https://gcmegustafront.herokuapp.com/right";
     },
     async finishWrong() {
       const propId = this.$route.query.id;
@@ -121,7 +121,7 @@ export default {
         success: false,
         show: false,
       });
-      window.location.href = "/wrong";
+      window.location.href = "https://gcmegustafront.herokuapp.com/wrong";
     },
   },
 };
