@@ -49,7 +49,7 @@
             <v-btn
               block
               color="green"
-              :href="linkmessage + baseurl + '/landing?id=' + responseid"
+              :href="linkmessage + baseurl + 'landing?id=' + responseid"
             >
               💬 Enviar por WhatsApp
             </v-btn>
@@ -88,7 +88,7 @@ export default {
             rightanswer: this.rightanswer,
             wronganswerone: this.wronganswerone,
             wronganswertwo: this.wronganswertwo,
-            show: true
+            show: true,
           })
           .then((response) => {
             this.responseid = response.data._id;
