@@ -100,7 +100,7 @@ export default {
     const response = await this.$axios.get("/proposition/" + propId);
     this.proposition = response.data[0];
     // Checks if proposition have been answered true or false
-    if ((this.proposition.success = true)) {
+    if ((this.proposition.success === true)) {
       this.textresult = "correcta ☺️";
     } else {
       this.textresult = "errónea 😱";
